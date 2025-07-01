@@ -1,0 +1,38 @@
+---
+title: "Introduction to Biomedical Data Science / Homework-1"
+author: Busenaz Demiralp
+date: July 1st, 2025
+output:
+  html_document:
+  toc: true  #Table of Contents
+  toc_indent: true  #Hierarchical view
+  toc_depth: 2  #Determines up to which level headings will be added to the table of  contents
+  number_sections: true  #Automatically numbers the titles
+  code_folding: show  #R code blocks can be hidden/shown
+  theme: cerulean #A simple theme with blue tones
+---
+  
+## why you think molecular biology is *cool*?
+-   It *reveals* the **hidden language of life**
+-   It *connects* **science to real-life impact**
+-   It’s like ***solving a molecular puzzle***
+  
+Here’s an example of DNA structure:\
+![DNA Image](https://media.istockphoto.com/id/1297146235/photo/blue-chromosome-dna-and-gradually-glowing-flicker-light-matter-chemical-when-camera-moving.jpg?s=612x612&w=0&k=20&c=yjSdodXRBvtwzOYtQTqetnn3b4wWDNpF6keupxqxric=)
+
+## First Chunk (Not Evaluated)
+
+```{r eval=FALSE}
+#15 divided by 2 equals 7.5
+print(15/2)
+```
+
+## Second Chunk (Evaluated)
+
+```{r, fig.align="center"}
+plot(iris$Sepal.Length, iris$Petal.Length,
+     main = "Sepal vs Petal Length",
+     xlab = "Sepal Length",
+     ylab = "Petal Length",
+     col = iris$Species)
+```
